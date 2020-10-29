@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../../img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin-top: 40%;
+}
+.container .log__username {
+  width: 80%;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  border-right: none;
+  border-bottom: solid 1px #ddd;
+  font-size: 14px;
+  color: #bbb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container .log__username:focus {
+  border-bottom: solid 1px #5b2884;
+  transition: linear 0.5s all;
+}
+.container .log__password {
+  width: 80%;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  border-right: none;
+  border-bottom: solid 1px #ddd;
+  font-size: 14px;
+  color: #bbb;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.container .log__password:focus {
+  border-bottom: solid 1px #5b2884;
+  transition: linear 0.5s all;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #ccc;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.login__btn {
+  margin-top: 110px;
+  float: right;
+  margin-right: 135px;
+}
+.login__btn button {
+  background: none;
+  border: none;
+  font-size: 23px;
+  color: #fff;
+  outline: none;
+}
+
+.social__conn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.social__conn span {
+  color: #1640D4;
+  font-weight: bold;
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.social__conn h4 {
+  color: #ccc;
+  font-size: 15px;
+}
+.social__conn .social__hiza {
+  display: flex;
+  margin-top: 7px;
+  justify-content: center;
+}
+.social__conn .social__block {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 7px;
+}
+.social__conn .sign_up {
+  color: #1640D4;
+  font-size: 16px;
+}
